@@ -1,0 +1,21 @@
+{
+  "name": "commit-demo",
+  "version": "1.0.0",
+  "description": "commit规范demo",
+  "main": "index.js",
+  "scripts": {
+    "commit": "npx git-cz"
+  },
+  "author": "zhaohuan <zhaohuan1@360.cn>",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "git-cz": "^4.6.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
